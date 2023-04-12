@@ -1,0 +1,55 @@
+.course-lesson {
+  width: 100%;
+  font-size: 1.8rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .lectures-controll {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .lecture-controller-cst {
+    width: 90%;
+  }
+  &__header {
+    width: 75%;
+    height: 2rem;
+    color: #fff;
+    background-color: blue;
+    margin-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 1.5rem !important;
+      font-weight: 400;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        margin-left: 1rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__body {
+    width: 75%;
+
+    &--video-container {
+      width: 100%;
+      margin-top: 2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

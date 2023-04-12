@@ -1,0 +1,17 @@
+module.exports = {
+  signin: "/auth/sign-in",
+  signup: "/auth/sign-up",
+  me: "/users/me/",
+  users: "/users/",
+  categories: "/admin/categories",
+  courses: "/admin/courses",
+  sections: "/admin/sections",
+  lectures: "/admin/lectures",
+  pages: "/admin/pages",
+  orders: "/admin/orders",
+  enrollments: "/admin/enrollments",
+  dashboard: "/admin/dashboard",
+  localizations: "/admin/localizations",
+  paymentTransactions: "/admin/transactions",
+  coupons: "/admin/coupons",
+};

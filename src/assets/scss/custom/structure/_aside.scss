@@ -1,0 +1,90 @@
+.aside {
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  overflow-y: scroll;
+  width: 22%;
+  height: 100vh;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(#000, 0.7);
+  box-shadow: 0 0 0.3rem rgba(#000, 0.4);
+  padding: 1rem;
+
+  &__header {
+    padding: 1rem;
+    background: linear-gradient(80deg, #3e474f 0, #5f6d79 100%) !important;
+
+    h1 {
+      text-transform: capitalize;
+      text-align: center;
+      font-size: 1.2rem !important;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+
+  &__body {
+    padding: 1rem 0 !important;
+    font-size: 1.5rem !important;
+  }
+
+  &__menu {
+    padding: 0 !important;
+    font-size: 1rem !important;
+    list-style: none;
+
+    &--item {
+      margin-bottom: 1rem !important;
+
+      &-title {
+        padding: 1rem !important;
+      }
+    }
+  }
+
+  &__submenu {
+    padding: 0 2rem !important;
+    font-size: 1rem !important;
+    list-style: none;
+
+    &--item {
+      &-title {
+        padding: 1rem 0 !important;
+        display: flex;
+        align-items: center;
+        a {
+          margin-left: 1rem;
+          color: rgba(#000, 0.7);
+        }
+      }
+    }
+  }
+}
+
+.section {
+  &__tile {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+  }
+
+  &:last-child {
+    margin-bottom: 4rem;
+  }
+}
+
+.lecture {
+  &__tile {
+    width: 100%;
+    text-align: left;
+    &:not(&:last-child) {
+      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+    }
+  }
+}
